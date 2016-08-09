@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DataHelpers">
+      <UniqueIdentifier>{6a74b15c-58e2-4d6d-aa0c-83b7bc8c2b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataHelpers">
+      <UniqueIdentifier>{6e6a177e-f924-40d8-bff8-2831180c03bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structs">
+      <UniqueIdentifier>{a9d09b5a-9ab1-4a23-a3ab-2758b463ae23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Channels">
+      <UniqueIdentifier>{7354964f-4e0b-4eaf-904f-2aee158aa27c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Channels">
+      <UniqueIdentifier>{4d346904-6d64-40c8-a786-3fbc9ddf6799}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Receiving.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Processing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBuilder.h">
+      <Filter>Header Files\DataHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="DataParser.h">
+      <Filter>Header Files\DataHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="FlexibleDataBuilder.h">
+      <Filter>Header Files\DataHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="EstablishingOrClosingConnection.h">
+      <Filter>Header Files\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="ChannelEstablishment.h">
+      <Filter>Header Files\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Invitation.h">
+      <Filter>Header Files\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="ReceivedDatagram.h">
+      <Filter>Header Files\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Refreshing.h">
+      <Filter>Header Files\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="AddToRefresh.h">
+      <Filter>Header Files\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="ClosingChannel.h">
+      <Filter>Header Files\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>Header Files\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Datagram.h">
+      <Filter>Header Files\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SendingMassChannel.h">
+      <Filter>Header Files\Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="ReceivingMassChannel.h">
+      <Filter>Header Files\Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="DataForSending.h">
+      <Filter>Header Files\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="DisposableDataBuilder.h">
+      <Filter>Header Files\DataHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicArray.h">
+      <Filter>Header Files\DataHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ReceivingStreamChannel.h">
+      <Filter>Header Files\Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="SendingStreamChannel.h">
+      <Filter>Header Files\Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="ReceivingConfirmatoryChannel.h">
+      <Filter>Header Files\Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="SendingConfirmatoryChannel.h">
+      <Filter>Header Files\Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfirmatoryDataBuilder.h">
+      <Filter>Header Files\DataHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfirmatoryDataParser.h">
+      <Filter>Header Files\DataHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoWayConfirmatoryChannel.h">
+      <Filter>Header Files\Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="DisposableFlexibleDataBuilder.h">
+      <Filter>Header Files\DataHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="FlexibleConfirmatoryDataBuilder.h">
+      <Filter>Header Files\DataHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoWaySendingConfirmatoryChannel.h">
+      <Filter>Header Files\Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FragmentedData.h">
+      <Filter>Header Files\Structs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Communication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Processing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Receiving.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBuilder.cpp">
+      <Filter>Source Files\DataHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="DataParser.cpp">
+      <Filter>Source Files\DataHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="FlexibleDataBuilder.cpp">
+      <Filter>Source Files\DataHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SendingMassChannel.cpp">
+      <Filter>Source Files\Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="ReceivingMassChannel.cpp">
+      <Filter>Source Files\Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicArray.cpp">
+      <Filter>Source Files\DataHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="ReceivingStreamChannel.cpp">
+      <Filter>Source Files\Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="SendingStreamChannel.cpp">
+      <Filter>Source Files\Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="ReceivingConfirmatoryChannel.cpp">
+      <Filter>Source Files\Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="SendingConfirmatoryChannel.cpp">
+      <Filter>Source Files\Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoWayConfirmatoryChannel.cpp">
+      <Filter>Source Files\Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoWaySendingConfirmatoryChannel.cpp">
+      <Filter>Source Files\Channels</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ExpandedClassDiagram.cd" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Channel">
+    <Position X="12" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>FAARwAAgAAAEIAEkAAAFAQAAAQABAAAoAJAAAAAgoAA=</HashCode>
+      <FileName>Channel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Communication">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>xniAhAAAGi4gQBBIgKlkQMCKACAMiwICIMEFAyIcCJI=</HashCode>
+      <FileName>Communication.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Connection">
+    <Position X="4" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>JEBUAklFggAEAAElECEgXSIUBUKARQIgBmEaAAC1IBM=</HashCode>
+      <FileName>Connection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Processing">
+    <Position X="9.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAgIAFgAAAAAAgCAAAAAAAAAgEAAAAAAAA=</HashCode>
+      <FileName>Processing.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Receiving">
+    <Position X="7.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAFgAAAAAAQCAAAAAAAAAgkAAAgAAAA=</HashCode>
+      <FileName>Receiving.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataBuilder">
+    <Position X="12.75" Y="14.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAgAAWAAAAAAQAAAAAAAAAAAAAAAAQAAAAgAA=</HashCode>
+      <FileName>DataBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataParser">
+    <Position X="7.5" Y="12.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAhAAQAggAOAAAICEAACEAAAAQAAAgAAAAAAAIAAAA=</HashCode>
+      <FileName>DataParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DisposableDataBuilder">
+    <Position X="9.75" Y="18" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>DisposableDataBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DynamicArray&lt;T&gt;">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAIgIAAAAAAEgAAAAAQAAAAIAEAA=</HashCode>
+      <FileName>DynamicArray.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlexibleDataBuilder">
+    <Position X="12.75" Y="18" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAIAAAAABAAAAAAAA=</HashCode>
+      <FileName>FlexibleDataBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcknowledgedDataBuilder">
+    <Position X="15.5" Y="18" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AcknowledgedDataBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcknowledgedDataParser">
+    <Position X="7.25" Y="18.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AcknowledgedDataParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReceivingAcknowledgedChannel">
+    <Position X="17" Y="7.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ABAQAAAAQIAAAAAEAQAAIAAAAABAAAACAAAAAQAAAAA=</HashCode>
+      <FileName>ReceivingAcknowledgedChannel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReceivingMassChannel">
+    <Position X="7.25" Y="7.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CBAQhgBAEAAAABEkAQQAABAAAABAAAAAAAkAAIAAAAA=</HashCode>
+      <FileName>ReceivingMassChannel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SendingAcknowledgedChannel">
+    <Position X="10.25" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAUIAEABAAAAAAAAAAAAAAAAAAAQBEAAA=</HashCode>
+      <FileName>SendingAcknowledgedChannel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SendingMassChannel">
+    <Position X="13" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAQAQAAAAggEACEAQgAAAAAABAAAABgAAAQAAAAAAA=</HashCode>
+      <FileName>SendingMassChannel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StreamChannel">
+    <Position X="15.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StreamChannel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TwoWayAcknowledgedChannel">
+    <Position X="13.25" Y="12.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TwoWayAcknowledgedChannel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
