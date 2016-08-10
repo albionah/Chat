@@ -9,7 +9,7 @@ class __declspec(dllexport) Channel
 	friend class Connection;
 
 public:
-	Channel(); //(Connection* connection, unsigned short sourceChannelNumber, unsigned short destinationChannelNumber);
+	Channel();
 	virtual ~Channel();
 	virtual void onCreate() { }
 

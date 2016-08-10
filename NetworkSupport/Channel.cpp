@@ -4,11 +4,9 @@
 
 
 
-Channel::Channel() // (Connection* connection, unsigned short sourceChannelNumber, unsigned short destinationChannelNumber)
+Channel::Channel()
 {
 	this->connection = NULL;
-	//this->sourceChannelNumber = sourceChannelNumber;
-	//this->destinationChannelNumber = destinationChannelNumber;
 	this->closing = false;
 	InitializeCriticalSection(&this->CS_closing);
 }
